@@ -24,8 +24,7 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets",
-              "src/_redirects"
+              "src/assets"
             ],
             "styles": [
               "src/styles.css"
@@ -130,6 +129,5 @@
       }
     }
   },
-
   "defaultProject": "angular.io-example"
 }

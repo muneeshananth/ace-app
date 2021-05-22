@@ -95,7 +95,7 @@ h2 {
 
 .custom-radio,
 .custom-checkbox {
-  margin-bottom: 15px;
+  margin-bottom: 3px;
 }
 
 .custom-radio .custom-control-label::before,
@@ -110,6 +110,7 @@ h2 {
   background: #c43b2a !important;
   border-color: #c43b2a;
   box-shadow: none;
+  border-radius: 50px;
 }
 
 .btn {
@@ -2609,7 +2610,7 @@ h3 {
 
 .billing-address label {
   color: #c43b2a;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .checkout-inner {
@@ -2858,6 +2859,7 @@ h3 {
  .nav-image{
   color: #f03c02;
   width: 41px;
+  margin-right: 10px;
  }
 
  .about-us .content .icon-box h4 {
@@ -2904,13 +2906,13 @@ h3 {
 
   text-align: center;
   border: 1px solid #ebe6e4;
-  height: 380px;
+  height: 324px;
   position: relative;
-  margin: 3px 3px 32px 36px;
+  margin-bottom: 13px;
 }
 .services .icon {
   position: absolute;
-  top: 346px;
+  top: 284px;
   left: calc(50% - 36px);
   transition: 0.2s;
   border-radius: 50%;
@@ -2928,8 +2930,8 @@ h3 {
   font-size: 17px;
   text-align: left;
   color: #000;
-  padding: 5px;
-  height: 72px;
+  padding: 6px;
+  height: auto;
 }
 .icon-box .title{
   padding: 5px;
@@ -3004,7 +3006,7 @@ h3 {
 }
 .category-image {
   color: #f03c02;
-  width: 81px;
+  width: auto;
 }
 
 section{
@@ -3149,7 +3151,7 @@ height: 800px;
 }
 .search-button {
   text-align: center;
-  height: 37px;
+  height: 42px;
   width: 96px;
   outline: none;
   cursor: pointer;
@@ -3200,4 +3202,28 @@ color: red;
     margin-top: 47px;
     padding: 0px;
     vertical-align: middle;
+}
+
+.services-list .icon-box{
+  padding: 0px;
+  text-align: center;
+  border: 1px solid #ebe6e4;
+  height: 369px;
+  position: relative;
+  margin-bottom: 33px;
+}
+.services-list .icon {
+  position: absolute;
+  top: 320px;
+  left: calc(50% - 36px);
+  transition: 0.2s;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 72px;
+  height: 72px;
+  background: #f03c02;
 }
