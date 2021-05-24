@@ -2870,13 +2870,11 @@ h3 {
 .pattern-color {
   color: #e74b14;
 }
-.about-us .content .icon-box:first-child {
-  border-left: 1px solid #e6d7d7;
-}
 .about-us .content .icon-box {
   margin-top: 25px;
-  border-right: 1px solid #e6d7d7;
+  border: 1px solid #e6d7d7;
   border-radius: 10px;
+  padding: 16px;
 }
 .service-image {
   float: left;
@@ -3207,7 +3205,7 @@ color: red;
 .services-list .icon-box{
   padding: 0px;
   text-align: center;
-  border: 1px solid #ebe6e4;
+  /* border: 1px solid #ebe6e4; */
   height: 369px;
   position: relative;
   margin-bottom: 33px;
