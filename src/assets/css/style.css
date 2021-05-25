@@ -3057,7 +3057,7 @@ padding: 10px;
 }
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: black;
+  background: #f6f6f6;
 }
 #footer {
   color: #b4aca8;
@@ -3081,7 +3081,7 @@ padding: 10px;
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #fff;
+  color: #d40029;
   position: relative;
   padding-bottom: 12px;
 }
@@ -3102,7 +3102,7 @@ padding: 10px;
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #fff;
+  color: #d40029;
   position: relative;
   padding-bottom: 12px;
 }
