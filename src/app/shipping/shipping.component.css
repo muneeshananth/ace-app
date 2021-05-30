@@ -143,3 +143,14 @@ input[type="text"].open ~ label {
     transform: translate(-50%, -50%);
   }
 }
+
+.user-icon{
+  margin-bottom: 13px;
+}
+.user-icon img{
+  padding: 8px;
+}
+.user-icon span{
+  margin: 7px;
+  color: #c5402a;
+}
