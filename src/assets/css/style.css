@@ -995,18 +995,6 @@ h2 {
   background: #ffffff;
 }
 
-.product .slick-prev,
-.product .slick-next {
-  top: 205px;
-  width: 30px;
-  height: 30px;
-  z-index: 1;
-  transition: 0.5s;
-  color: #c43b2a;
-  background: #ffffff;
-  border: 1px solid #c43b2a;
-  border-radius: 4px;
-}
 
 
 .product .slick-next {
@@ -1018,14 +1006,6 @@ h2 {
 .product .slick-next:hover,
 .product .slick-next:focus {
   background: #c43b2a;
-}
-
-.product .slick-prev::before,
-.product .slick-next::before {
-  font-family: "Font Awesome 5 Free";
-  font-size: 18px;
-  font-weight: 900;
-  color: #c43b2a;
 }
 
 /* .product .slick-prev::before {
