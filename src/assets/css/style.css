@@ -2893,15 +2893,15 @@ h3 {
   top: 284px;
   left: calc(50% - 36px);
   transition: 0.2s;
-  border-radius: 50%;
-  border: 6px solid #fff;
+  /* border-radius: 50%;
+  border: 6px solid #fff; */
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   width: 72px;
   height: 72px;
-  background: #f03c02;
+  /* background: #f03c02; */
 }
 .services .description {
   line-height: 24px;
@@ -3179,6 +3179,7 @@ color: red;
     margin-top: 37px;
     padding: 0px;
     vertical-align: middle;
+    margin-right: -2em;
 }
 
 .services-list .icon-box{
