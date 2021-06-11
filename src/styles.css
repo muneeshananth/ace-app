@@ -236,7 +236,7 @@ width: 40%;
 
 .nav-justified>li {
   display: table-cell;
-  width: 200px  ;
+  /* width: 200px  ; */
 }
 
 
@@ -351,6 +351,7 @@ width: 40%;
   }
 
   .product-btn {
+    text-align: center;
     align-self: flex-end;
     width: 100%;
 }
