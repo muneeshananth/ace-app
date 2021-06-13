@@ -227,3 +227,26 @@ a.cart {
   margin-top: 13px;
   transform: scale(1.5);
 }
+/*
+heart icon */
+.site-header__icon {
+  stroke: #cccccc;
+  fill: none;
+  width: 25px;
+  height: 25px;
+  float: left;
+}
+
+.site-header__account,
+.site-header__cart,
+.site-header__wishlist {
+  position: relative;
+  color: #fff;
+  cursor: pointer;
+}
+.site-header__account,
+.site-header__cart,
+.site-header__wishlist {
+  margin: 5px;
+}
+/* End heart icon */
